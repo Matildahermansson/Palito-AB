@@ -1,0 +1,21 @@
+.section {
+    margin: 0;
+    padding: $spacing--xl 0;
+
+    &--padded {
+        padding: $spacing--xl $spacing--sm;
+    }
+
+    &--margined{
+        margin: $spacing--base; 
+    }
+}
+
+.section__title {
+    text-align: center;
+
+    &:hover {
+        color: $color-medium-yellow;
+    }
+}
+

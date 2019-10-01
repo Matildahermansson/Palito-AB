@@ -1,0 +1,16 @@
+{
+    "site": {
+        "title": "Matilda Hermansson",
+        "description": "Front-End Developer",
+        "author": "Matilda Hermansson",
+        "mail": "hermanssonmatilda@gmail.com"
+    },
+
+    "image": [
+        {
+            "src": "https://images.unsplash.com/photo-1493837417577-baec364a53eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
+            "alt": "Matilda Hermansson Logo"
+        }
+    ]
+}
+

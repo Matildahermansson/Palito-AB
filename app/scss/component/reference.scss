@@ -1,0 +1,49 @@
+.green{
+  color: green;
+}
+
+.active{
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.references__content {
+  display: none;
+
+  &--active {
+    display: block;
+  }
+}
+
+#references {
+  height:500px;
+}
+
+.section__content{
+  height: 100%;
+}
+
+.references__content--active{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.reference__list {
+
+}
+
+.reference__list__item {
+
+  padding: 5px;
+  
+}

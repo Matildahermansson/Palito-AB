@@ -1,0 +1,32 @@
+<!-- layout.nunjucks -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:100,200,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400 ", false rel="stylesheet">
+
+
+    <script src="https://kit.fontawesome.com/daf06721e4.js"></script>
+  </head>
+  <body>
+	<!-- You write code for this content block in another file -->
+
+  <section class= "main-content">
+	{% block content %} {% endblock %}
+  </section>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      new Navigation(); 
+      //  new Carousel('hero-slide');  
+    });
+    </script>
+  </body>
+</html>

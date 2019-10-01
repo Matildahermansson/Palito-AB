@@ -1,0 +1,35 @@
+$color-gray: #353535;
+$color-light-yellow: #fee576;
+$color-medium-yellow: #ffc869;
+$color-dark-yellow: #edab5f;
+$bg-color-gray:  #353535;
+
+.bg-gray {
+    background-color: $bg-color-gray;
+  }
+  
+  .font-color-gray {
+    color: $color-gray;
+  }
+
+  .bg-yellow {
+    background-color: $color-dark-yellow;
+  }
+  
+  .font-color-light {
+    color: $color-light-yellow;
+  }
+
+  .font-color-light-op {
+    color: $color-light-yellow;
+    opacity: 0.6;
+  }
+  
+  .font-color-medium {
+    color: $color-medium-yellow;
+  }
+  
+  .font-color-dark {
+    color: $color-dark-yellow;
+  }
+

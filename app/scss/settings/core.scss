@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    color: $color-gray;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+h1 {
+    font-size: 100px;
+    color: $color-gray;
+}
+
+body {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.07em;
+    font-weight: 300;
+}
+
+a{
+    height: 30px;
+}
+
+.right-content {
+
+    float: right;
+  
+  }
+
+  .left-content{
+      float: left;
+  }
+
+  .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: white;
+  }
+
+
