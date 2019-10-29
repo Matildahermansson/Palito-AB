@@ -27,6 +27,7 @@ h4 {
 
 p {
   text-align: left;
+  margin-bottom: 15px;
 }
 li {
   text-align: left;
@@ -35,6 +36,8 @@ li {
 /* Style the tab */
 .tab {
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 /* Style the buttons inside the tab */
