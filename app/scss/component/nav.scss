@@ -1,14 +1,14 @@
 // ------------------- Nav styling START
 
 .nav {
-    display: flex;
-    max-width: 100%;
-    height: 100px;
-    top: 0;
-    z-index: 1;
-    overflow: hidden;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+  display: flex;
+  max-width: 100%;
+  height: 100px;
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
    
 }
 
@@ -24,11 +24,11 @@
 }
 
 .nav__item {
-         position: relative;
-        background-color: white;
-        border: none;
-        text-decoration: none;
-         }
+  position: relative;
+  background-color: white;
+  border: none;
+  text-decoration: none;
+}
 
 .nav__item:hover::after {
     content: "";  
