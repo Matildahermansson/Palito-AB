@@ -27,7 +27,7 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 30%;
+  top: 290px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -47,7 +47,7 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev, .next {
-  background-color: $color-medium-yellow;
+  background-color: $color-gray;
 }
 
 .prev:hover, .next:hover {
