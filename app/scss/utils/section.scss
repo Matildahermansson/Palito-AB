@@ -9,6 +9,8 @@
     &--margined{
         margin: $spacing--base; 
     }
+    width: 81%;
+    margin: auto;
 }
 
 .section__title {
@@ -19,3 +21,55 @@
     }
 }
 
+h4 {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+  margin-bottom: 15px;
+}
+li {
+  text-align: left;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border-bottom: 2px solid #edab5f;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 10px 16px;
+  border-bottom: 2px solid #edab5f;
+}
+
+.tabcontent {
+  animation: fadeEffect 1.5s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
