@@ -1,4 +1,16 @@
 <section  id="contact">
-        {# <p>  {{ site.mail }} </p> #}
         <h2>Contact<h2>
-    </section>
+
+        <form id="mailform" class="contact__container">
+            <label for="name"> Namn </label>
+            <input type="text">
+
+            <label for="email"> Mail </label>
+            <input type="text" id="email" name="email" value="">
+
+            <label for="message"> Meddelande </label>
+            <textarea name="message" id="message">
+            Meddelande
+            </textarea>
+        </form>
+</section>
