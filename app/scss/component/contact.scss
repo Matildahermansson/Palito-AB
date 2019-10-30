@@ -1,0 +1,54 @@
+ .contact__container{
+     display: flex;
+     justify-content: center;
+}
+
+.form__field{
+    margin-top: 10px;
+    text-align: center;
+}
+
+ .label{
+     margin-right: 10px;
+     
+     width: 50px;
+     
+ }
+
+ input {
+    margin-bottom: $spacing--md;
+    width: 200px;
+ }
+
+ textarea {
+     height: 100px;
+ }
+
+
+ #contact {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ }
+
+ #mailform {
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     flex-direction: column;
+     padding-right: 40px;
+     border-right-style: solid;
+     border-right-width: thin;
+ }
+
+ #submitbutton{
+     margin-top: 20px;
+ }
+
+ #map {
+     margin-left: 10px;
+ }
+
+ .button-prev {
+     margin-left: -133px;
+ }
